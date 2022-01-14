@@ -18,11 +18,12 @@ class CreateTravelsTable extends Migration
             $table->string('destination');
             $table->string('departure from');
             $table->date('date');
-            $table->int('price');
+            $table->integer('price');
             $table->string('stay time');
             $table->string('hotel');
             $table->string('treatment');
-            $table->int('number of people');
+            $table->integer('number of people');
+            $table->boolean('disponibility');
             $table->timestamps();
         });
     }
