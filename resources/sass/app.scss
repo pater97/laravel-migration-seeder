@@ -1,2 +1,29 @@
 //
 @use 'bootstrap';
+
+// variabiles
+$main_color:#F0A202;
+$secondary_color:#0E1428;
+$third_color:#7B9E89;
+
+header{
+    i{
+        color: $main_color;
+    }
+}
+.welcome_main{
+    .jumbotron{
+        width: 50%;
+        margin: auto;
+        height: 15rem;
+        background: $secondary_color;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:$main_color ;
+        i{
+            font-size: 10rem;
+        }
+    }
+}

@@ -10,4 +10,9 @@ class PageController extends Controller
         $travels =Pack::all();     //creare una variabile nella quale inserire i dati del db
         return view('welcome',compact('travels'));   //creazione della rotta
     }
+    public function show(Pack $travels)
+    {
+        
+        return view('show', compact('travels'));
+    }
 }

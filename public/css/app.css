@@ -11243,3 +11243,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header i {
+  color: #F0A202;
+}
+
+.welcome_main .jumbotron {
+  width: 50%;
+  margin: auto;
+  height: 15rem;
+  background: #0E1428;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F0A202;
+}
+.welcome_main .jumbotron i {
+  font-size: 10rem;
+}
