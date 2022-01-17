@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'PageController@index')->name('welcome');
-Route::get('/{travel}', 'PageController@show')->name('MainTravels');
+Route::get('/travel', 'PageController@show')->name('MainTravels');
 

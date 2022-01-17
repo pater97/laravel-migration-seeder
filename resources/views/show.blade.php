@@ -1,1 +1,3 @@
-{{$travels->destination}}
+<h1>
+    {{$travel->destination}}
+</h1>

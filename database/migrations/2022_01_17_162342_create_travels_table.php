@@ -16,14 +16,14 @@ class CreateTravelsTable extends Migration
         Schema::create('travels', function (Blueprint $table) {
             $table->id();
             $table->string('destination');
-            $table->string('departure from');
+            $table->string('departure_from');
             $table->date('date');
-            $table->integer('price');
-            $table->string('stay time');
-            $table->string('hotel');
-            $table->string('treatment');
-            $table->integer('number of people');
-            $table->boolean('disponibility');
+            $table->smallInteger('price');
+            $table->string('stay');
+            $table->string('hotel',30);
+            $table->string('treatment')->nullable();
+            $table->tinyInteger('guest_number');
+            $table->boolean('disponibility')->default(true);
             $table->timestamps();
         });
     }
