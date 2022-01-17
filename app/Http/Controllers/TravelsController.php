@@ -14,7 +14,8 @@ class TravelsController extends Controller
      */
     public function index()
     {
-        //
+        $travels =Travels::all();     //creare una variabile nella quale inserire i dati del db
+        return view('travels.index',compact('travels'));
     }
 
     /**

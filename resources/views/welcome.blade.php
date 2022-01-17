@@ -11,7 +11,7 @@
             OUR BEST PROPOSALS:
           </h3>
           <div class="row my-5 ">
-          @foreach ($travels as $travel)
+          @foreach ($mainTravels as $travel)
               <div class="col-md-3">
                 <div class="card p-2" style="width: 18rem;">
                     <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
